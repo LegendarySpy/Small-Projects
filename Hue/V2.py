@@ -7,7 +7,7 @@ mp_hands = mp.solutions.hands.Hands(static_image_mode=False, max_num_hands=1, mi
 mp_draw = mp.solutions.drawing_utils
 # Place bridge IP and user ID here, bridge ID first then user ID.
 b = Bridge("", '')
-
+# Specify your lights here, Ie: [1, 2, 3, 4]
 LIGHT_IDS = [2, 3]
 MAX_BRIGHTNESS, MIN_BRIGHTNESS = 254, 0
 MAX_HUE, MIN_HUE = 65535, 0
